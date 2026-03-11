@@ -1,6 +1,7 @@
 services:
   server:
-  build: .
+  build: 
+    context: ./comp3050-team-server-week2
   expose:
     - "8000"
 
